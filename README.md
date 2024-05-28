@@ -57,7 +57,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ```sh
 cd project-name
 ```
-- 1. ### Add Dependencies:
+- 1 ### Add Dependencies:
 ```sh
 npm install axios react-query react-router-dom typescript @types/react @types/react-dom @types/react-router-dom
 ```
