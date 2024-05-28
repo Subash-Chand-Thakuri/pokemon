@@ -57,7 +57,9 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ```sh
 cd project-name
 ```
-- 1 ### Add Dependencies:
+- 1. ### Add Dependencies:
+  2. # Install necessary dependencies including axios for API calls, react-query for caching, react-router-dom for routing, and typescript for type safety.
 ```sh
 npm install axios react-query react-router-dom typescript @types/react @types/react-dom @types/react-router-dom
 ```
+- 2. ###
