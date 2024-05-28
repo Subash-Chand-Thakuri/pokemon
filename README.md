@@ -58,7 +58,7 @@ cd project-name
 - 1. ## Add Dependencies:
    ###### Install necessary dependencies including axios for API calls, react-query for caching, react-router-dom for routing, and typescript for type safety.
 ```sh
-npm install axios react-query react-router-dom typescript @types/react @types/react-dom @types/react-router-dom
+npm install axios react-query typescript @types/react @types/react-dom @types/react-router-dom
 ```
 - 2. ## Install Tailwindcss:
 ```sh
@@ -93,6 +93,13 @@ npx astro add tailwind
     - astrojs
     - axios
     - react query
-    - react router
     - vercel hosting
     - pokemon public api
+ 
+- 6. ### Why we used these:
+   - Reactjs : It is used for building user interfaces.
+   - Astro.js : It is a web framework that automatically removes unused JavaScript and renders to HTML,                resulting in better core web vitals, conversion rates, and SEO.
+   - Axios: It simplifies making HTTP requests in both Node.js and the browser, providing a consistent and flexible interface.
+   - React Query: It simplifies data fetching and management in React applications, replacing complex code with just a handful of lines of logic, also we have used it caching in this project for an hour.
+   - Vercel : It provides free hosting services for out web app
+   - Pokemon api : we have used this api for retrieving the data as per the requirements to demonstrate the pokemon app
