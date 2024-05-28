@@ -51,7 +51,7 @@ All commands are run from the root of the project, from a terminal:
 
 
 
-# After installign astrojs in the project :
+# After installing astrojs in the project :
 ```sh
 cd project-name
 ```
