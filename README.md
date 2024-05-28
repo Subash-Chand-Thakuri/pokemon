@@ -57,9 +57,44 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ```sh
 cd project-name
 ```
-- 1. ### Add Dependencies:
-  2. ###### Install necessary dependencies including axios for API calls, react-query for caching, react-router-dom for routing, and typescript for type safety.
+- 1. ## Add Dependencies:
+   ###### Install necessary dependencies including axios for API calls, react-query for caching, react-router-dom for routing, and typescript for type safety.
 ```sh
 npm install axios react-query react-router-dom typescript @types/react @types/react-dom @types/react-router-dom
 ```
-- 2. ###
+- 2. ## Install Tailwindcss:
+```sh
+npx astro add tailwind
+```
+- 3. ## Make sure this configuration in astor.config.mjs:
+```sh
+  import { defineConfig } from 'astro/config';
+  import react from '@astrojs/react';
+  import tailwind from "@astrojs/tailwind";
+
+  export default defineConfig({
+  integrations: [react({
+    experimentalReactChildren: true
+  }), tailwind()]
+  });
+  
+```
+- 4. ## Configure this in tsconfig.json for the compiling react jsx:
+```bash
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}
+```
+
+- 5. ## Technologies Used:
+    - Reactjs
+    - astrojs
+    - axios
+    - react query
+    - react router
+    - vercel hosting
+    - pokemon public api
