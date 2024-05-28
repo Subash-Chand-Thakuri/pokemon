@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Main from '../Main.tsx'
+---
+
+<Layout title="Pokenmon App">
+	<main>
+		
+		<Main client:load />
+	</main>
+</Layout>
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	main{
+		color: white;
+	}
+
+</style>
