@@ -52,3 +52,12 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+# After installign astrojs in the project :
+```sh
+cd project-name
+```
+- 1. ### Add Dependencies:
+```sh
+npm install axios react-query react-router-dom typescript @types/react @types/react-dom @types/react-router-dom
+```
